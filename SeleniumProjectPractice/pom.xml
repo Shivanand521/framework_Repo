@@ -8,7 +8,7 @@
   
   <profiles>
 	  <profile>
-		  <id>FR</id>
+		  <id>testng</id>
 		  <build>
 				<plugins>
 					<plugin>
@@ -17,7 +17,7 @@
 						<version>2.18.1</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>fullRegressionTest.xml</suiteXmlFile>
+								<suiteXmlFile>testng.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
